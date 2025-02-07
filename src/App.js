@@ -11,6 +11,7 @@ function App() {
   return (
     <Router>
       <div>
+        <h1>App<h1/>
         <Routes>
           <Route path="/Terms-and-Conditions" element={<TACs />} />
           <Route path="/Privacy-Policy" element={<Privacy />} />
